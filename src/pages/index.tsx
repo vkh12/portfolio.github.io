@@ -8,11 +8,11 @@ import ProjectPreview from "../components/ProjectPreview";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="h-screen">
-        <div className="overflow-hidden">
+      <div className="">
+        <div className="overflow-hidden pb-4">
           <div className="relative">
-            <div className="bg-cover rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-              <div className="">
+            <div className="bg-cover bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+              <div className="p-4">
                 <Header />
                 <Profile />
               </div>
